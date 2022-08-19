@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#To list currently running processes in bash
+#showing hierachy user-oriented formatting and might not have TTY
+
+ps -auxf
