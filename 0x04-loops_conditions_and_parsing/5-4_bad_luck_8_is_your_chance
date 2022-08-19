@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+#scrpit that displays 'best school' 10 times but
+#on the 4th iteration it displays bad luck
+#on the 8th iteration it displays good luck
+
+counter=0
+while [ $counter -lt 10 ]
+do
+    if [ $counter -eq 3 ] 
+    then
+        echo "bad luck"
+    elif [ $counter -eq 7 ]
+    then
+        echo "good luck"
+    else
+        echo "Best School"
+    fi
+    (( counter++ ))
+done
