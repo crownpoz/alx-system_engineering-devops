@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#Bash script that runs to infinity using sleep2
+
+while true
+do
+    echo "To infinty and beyond"
+    sleep 2
+done
