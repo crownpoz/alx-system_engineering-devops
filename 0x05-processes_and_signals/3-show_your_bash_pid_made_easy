@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#To get process name and process identification
+
+pgrep ^bash$ -l
