@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+#script that prints 'best school' 10 times
+#then on 9th iteration prints 'hi'
+
+counter=0
+
+while [ $counter -lt 10 ]
+do
+    if [ $counter -eq 9 ] 
+    then
+        echo "Hi"
+    fi
+    echo "Best School"
+    ((counter++))
+done
