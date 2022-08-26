@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#Script showing only listening sockets
+#Show process ID and name of program
+
+ss -lp
