@@ -1,1 +1,1 @@
-repo about shell permissions
+on basis of web infrastructure
