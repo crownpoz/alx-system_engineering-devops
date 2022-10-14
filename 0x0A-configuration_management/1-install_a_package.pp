@@ -1,7 +1,7 @@
 # Installs flask from pip3 using puppet
 
 package { 'flask':
-    ensure   => installed,
+    ensure   => installed ,
     provider => 'pip',
 
     }
