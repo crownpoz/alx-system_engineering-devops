@@ -1,7 +1,0 @@
-#!/usr/bin/env bash
-
-Host server1
-	Hostname 3.236.173.34
-	User ubuntu
-	Identityfile ~/.ssh/school
-	PasswordAuthentication no
