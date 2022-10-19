@@ -1,0 +1,15 @@
+#!/usr/bin/bash env
+# install Nginx on server
+# Nginx given firewall permission 'Nginx https'
+# listens on port 80
+# using curl returns a page with heelo world
+
+sudo apt -y update
+sudo apt -y install nginx
+sudo ufw allow "Nginx HTTP"
+cd /var/www
+sudo chmod 777 html
+echo 'Hello World!' > html/index.html
+sudo chmod 755 html
+cd ~
+sudo service nginx restart
