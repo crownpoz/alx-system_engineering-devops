@@ -1,4 +1,4 @@
-#!/usr/bin/bash env
+#!/usr/bin/env bash
 # install Nginx on server
 # Nginx given firewall permission 'Nginx https'
 # listens on port 80
